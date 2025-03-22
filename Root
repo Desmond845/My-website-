@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+     First Full Page
+    </title>
+       <style>
+   body{
+     padding-bottom:100px; 
+     
+   }
+     .welcome-text{
+       border-radius:7px;
+        color:white;
+      background-image:linear-gradient(to bottom right,cyan,crimson );
+      padding: 5px;
+     }
+     .log-acc{
+        border:none;
+       border-radius:10px;
+       width:170px;
+      white-space: nowrap;
+       font-weight:bold;
+       height:50px;
+       background-color:rgb(255,0,0);
+       animation:spin;
+       transition:0.15s;
+       animation-duration: 3s;
+       animation-iteration-count: infinite;
+       animation-direction: alternate;
+     }
+     @keyframes spin{
+       0%{
+         scale:0;
+     }
+       100%{
+         scale:1;
+       }
+       
+     }
+     .log-acc:hover{
+      animation-play-state: paused;
+       background-color:blue;
+       transition: 0.15s;
+     }
+     .dex-color{
+  background: linear-gradient(to right, #008cff,#e100ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+   </style> 
+  </head>
+  <body>
+    <div>
+      <div> 
+      <h1> Tired of scrolling your phone endlessly searching for something useful to do huh Did you know that you could study your dream tech job under 3 months and get a job right after learning
+      </div>
+    <div>
+      <h1><em>DexRay Complex</b></em> is your answer</h1>
+      </div>
+       
+      <div>
+        <h2>What we do</h2>
+        <p>
+         <strong> We offer a wide range of tech clases front-end,back-end or both(full stack development) in any tech field from graphic design to cloud computing even ethical Hacking<br>•🖼️Graphic Design<br>•📱Web Development<br>• ☁️Cloud computing<br>• 🚀Software Development<br>•💻Ethical Hacking/Cyber Security <br>•🎮Game Development<br>• 💭Animation<br>• 🤖Machine Language/Artificial intelligence</strong>
+        </p>
+      </div>
+      
+      <div>
+        <h2>
+          How we offer it
+        </h2>
+        <p><strong>
+          We have a lot of ways for teaching our students <br>•Online via our website or app<br>•Personalized tutoring/Mentoring<br>
+       </strong> </p>
+      </div>
+    </div><div>  
+    <p> First 50 sign-ups get a special gift ranging from a discount to a guaranteed job in our company or other tech companies in collaboration with us and our best students get gifts at the end of every month yes even Macbook Air</div><div>What are you waiting for there's space for just 10 more signups for the special gift click the link below to login to <b><em><span class="dex-color">DexRay complex</span></em></b></p></div>
+ <a href="general log.html">  <button class="log-acc">Login to DexRay Complex </button></a>
+  </body>
+</html>
